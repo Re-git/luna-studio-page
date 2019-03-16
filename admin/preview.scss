@@ -4,5 +4,5 @@
 // @import "alembic";
 
 body {
-  @extend .typeset;
+  @extend .typeset !optional;
 }

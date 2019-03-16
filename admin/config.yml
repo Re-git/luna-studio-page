@@ -20,10 +20,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured image", name: "feature_image", widget: "image", required: false}
       - {label: "Feature text", name: "feature_text", widget: "markdown", required: false}
-      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: "categories", widget: "string", required: false}
-      - {label: "Meta image", name: "image", widget: "image", required: false}
+      - {label: "Tags", name: "tags", widget: "string", required: false}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
   - name: "page" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -36,7 +35,4 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Featured image", name: "feature_image", widget: "image", required: false}
-      - {label: "Feature text", name: "feature_text", widget: "markdown", required: false}
-      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Meta image", name: "image", widget: "image", required: false}

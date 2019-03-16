@@ -300,11 +300,8 @@ img,
 svg,
 video {
     vertical-align: middle;
-<<<<<<< HEAD
     height: auto;
     width: 100%;
-=======
->>>>>>> d8964966d6d3f3a52e0c55d24bf8b4526415fd03
 }
 
 fieldset {

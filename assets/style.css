@@ -1,13 +1,8 @@
 @import "global.css";
 
-html {
-    border: 20px;
-    border-style: solid;
-    border-color: #24282d;
-    height: 100vh;
-}
 body {
     font-family: 'Noticia Text', serif; 
+    background-color: var(--main-text-color);
 }
 h1,
 h2 {
@@ -18,9 +13,14 @@ h2 {
     margin-bottom: 0.3em;
 }
 
+.site-border {
+    padding: 20px;
+    background-color: #24282d;
+}
+
 .site-wrapper {
     padding: 20px;
-    background-color: var(--main-text-color);
+    background-color: var(--main-bg-color);
 }
 
 .page-content {

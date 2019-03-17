@@ -23,6 +23,11 @@ h2 {
     background-color: var(--main-bg-color);
 }
 
+.site-logo {
+    width: auto;
+    height: auto;
+}
+
 .page-content {
     margin-right: auto;
     margin-left: auto;
@@ -43,6 +48,8 @@ h2 {
 
 .post-card {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #faebd7;
 }
 
@@ -52,6 +59,7 @@ h2 {
 
 .post-card-image-link {
     height: 30vw;
+    width: 100%;
     align-self: stretch;
 }
 
@@ -68,6 +76,16 @@ h2 {
     font-weight: 400;
     color: #7f8d8c;
     font-style: italic;
+}
+
+.post-content {
+    min-height: 50vh;
+    max-width: 80vw;
+    margin: 2em auto;
+    text-align: left;
+    color: #7f8d8c;
+    line-height: 1.5;
+    font-size: 1.5em;
 }
 
 .post-excerpt {

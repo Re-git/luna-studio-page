@@ -3,9 +3,6 @@ layout: default
 ---
 
 <div class="home">
-
-    {{ content }}
-    
     {%- if site.posts.size > 0 -%}
     <div class="post-list">
         {%- for post in site.posts -%}
@@ -17,21 +14,20 @@ layout: default
             {%- endif -%}
             <div class="post-card-content">
                 <a class="post-card-content-link" href="{{ post.url | relative_url }}">
-                    <p class="post-card-tags">{{ post.categories }}</p>
                     <h2>{{ post.title | escape }}</h2>
                 </a>
-                <div class="post-categories">
+            <div class="post-categories">
+                <a href="">
                     {{ post.categories }}
-                </div>
-                <hr>
-                <div class="post-excerpt">
-                    {{ post.content | strip_html | truncatewords: 20 }}
-                </div>
-                {%- assign date_format = site.minima.date_format | default: "%-d.%m.%Y" -%}
-                <span class="post-meta">{{ post.date | date: date_format }} 
-                    {{ post.tags }}</span>
-                </article>
-                {%- endfor -%}
+                </a>
             </div>
-            {%- endif -%}
-        </div>
+            <hr>
+            <div class="post-excerpt">
+                {{ post.content | strip_html | truncatewords: 20 }}
+            </div>
+
+        </article>
+        {%- endfor -%}
+    </div>
+    {%- endif -%}
+</div>

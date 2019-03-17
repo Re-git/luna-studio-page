@@ -24,7 +24,6 @@ h2 {
 }
 
 .page-content {
-    width: 900px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -35,6 +34,33 @@ h2 {
 
 .post-list {
     list-style: none;
+    display: grid;
+    grid-template-areas: "a a b";
+    grid-gap: 10px;
+    grid-auto-columns: auto;
+    justify-content: center;
+}
+
+.post-card {
+    display: flex;
+    background-color: #faebd7;
+}
+
+.post-card:first-child {
+    grid-area: a;
+}
+
+.post-card-image-link {
+    height: 30vw;
+    align-self: stretch;
+}
+
+.post-card-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .post-categories {

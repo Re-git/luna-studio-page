@@ -1,0 +1,9 @@
+<div id="btn-top" class="btn-to-top"></div>
+<script>
+  document.getElementById("btn-top").addEventListener("click", function(e) {
+      e.preventDefault();
+      document.querySelector('.site-header').scrollIntoView({
+          behavior: 'smooth'
+      });
+  })
+</script>

@@ -16,9 +16,9 @@ layout: default
                 <a class="post-card-content-link" href="{{ post.url | relative_url }}">
                     <h2>{{ post.title | escape }}</h2>
                 </a>
-            <div class="post-categories">
+            <div class="post-category">
                 <a href="">
-                    {{ post.categories }}
+                    {{ post.categories[0] }}
                 </a>
             </div>
             <hr>

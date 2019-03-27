@@ -1,29 +1,55 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article id="post" class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-  </header>
-  
-  <div class="post-content" itemprop="articleBody">
-      {{ content }}
-    {{page.tags}}
-  </div>
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="post-meta">
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+            </time>
+    </header>
 
-  {%- if site.disqus.shortname -%}
+    <div class="post-content" itemprop="articleBody">
+        {{ content }}
+
+    </div>
+    <hr>
+    <div class="post-categories">
+        {% for category in page.categories %}
+        <span><a
+                href="{{ site.baseurl }}/categories/#{{ category | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+
+    </div>
+
+    {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
-  {%- endif -%}
+    {%- endif -%}
 
-  {% for post in site.categories.Grid %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    <!-- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li> -->
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+<script>
+    let elems = document.getElementById("post").getElementsByTagName("*");
+    let max_elements = 4;
+    let size;
+    let is_prev_img = false;
+    let img_counter = 0;
+
+    for (let i = 0; i < elems.length; i++) {
+        if (elems[i].tagName == "IMG") {
+            is_prev_img = true;
+            img_counter += 1;
+        }
+        else if (is_prev_img == true) {
+            for (let j = 1; j < img_counter + 1; j++) {
+                elems[i - j].style["width"] = (99 / img_counter) + "%";
+            }
+            is_prev_img = false;
+            img_counter = 0;
+        }
+    }
+</script>

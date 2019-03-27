@@ -1,0 +1,6 @@
+{%- for categories in site.categories -%}
+{%- for post in categories[1] -%}
+    {{post.title}}
+    <br>
+{%- endfor -%}
+{%- endfor -%}

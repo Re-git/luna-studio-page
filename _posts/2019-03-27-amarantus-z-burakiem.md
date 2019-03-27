@@ -4,7 +4,7 @@ title: Amarantus z burakiem
 date: 2019-03-27T10:58:48.781Z
 feature_image: /assets/uploads/maxresdefault.jpg
 feature_text: ''
-categories: food amatantus burak
+categories: 'food, amatantus, burak'
 ---
 Pieczony kalafior z orzechami
 

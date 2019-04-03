@@ -2,64 +2,60 @@
 layout: post
 title: Amarantus z burakiem
 date: 2019-03-27T10:58:48.781Z
-feature_image: /assets/uploads/maxresdefault.jpg
+feature_image: /assets/uploads/36616917_663595960651364_5806115946703618048_n.jpg
 feature_text: ''
 categories: 'food, amatantus, burak'
 ---
-Pieczony kalafior z orzechami
+Amarantus zwany też szarłatem jest jednym z najstarszych uprawianych ziaren. Był podstawowym pożywieniem ludów Ameryki Środkowej. Majowie, Aztekowie i Inkowie wierzyli w jego magiczne właściwości i wykorzystywali w obrzędach religijnych. Z tego też powodu wraz z podbojem Ameryki przez Hiszpanów jego uprawa została zakazana a niesubordynacja była surowo karana. Więc od XV w. amarantus był dziko rosnącym rośliną dzięki czemu ziano to dotrwało do naszych czasów praktycznie w niezmienionej formie genetycznej i jest uważane za najmniej zmodyfikowane ziarno.
+
+Jest wspaniałym rozwiązaniem dla osób uczulonych na zboża lub nietolerujących glutenu.
+
+Na zachętę można dodać, że roślin bardzo nie lubi pestycydów stąd siłą rzeczy jej uprawa jest bardzo naturalna z użyciem organicznych nawozów.
+
+Jest wiele gatunków tej rośliny, niektóre hodowane są dla ich liści przypominających nieco szpinak, które używane są do sałatek Niestety z liśćmi amarantusa nie spotkałam się ani w sklepach w Polsce ani we Francji. Niektóre odmiany cenione są przede wszystkim za walory dekoracyjne i służą jako piękne rośliny ozdobne. A inne odmiany produkują malutkie ziarenka wielkości maku w których zamknięta jest bomba składników odżywczych.
+
+Od łacińskiej nazwy szarłatu pochodzi nazwa koloru - czerwieni z domieszką różu i fioletu. A kwiatostany tej rośliny przybierają właśnie takie barwy: od winnej czerwieni po buraczkową. 
+
+I właśnie tą odcieniem zainspirowane jest nasze sycące zimowe śniadanko.
+
+![](/assets/uploads/amaratus-miniaturka.jpg)
+
+**Składniki:**
+
+70g amarantusa
+
+100g buraka (1 duży)
+
+50g orzechów nerkowca
+
+2 łyżki siemienia lnianego
+
+2 łyżki masła orzechowego
+
+2 łyżki płatków kokosowych
+
+**Metoda:** 
+
+Amarantus, pokrojone buraki i siemię lniane wsyp do garnka. Zalej 1,5 szklanki zimnej wody i wstaw na gaz. Od zagotowania się wody gotuj 15-20 min. na małym ogniu pod przykryciem.
+
+Na koniec dodaj masło orzechowe i nerkowce i porządnie wymieszaj. Użyj płatków kokosowych do dekoracji.
+
+**Uwagi:** 
+
+Jeśli po gotowaniu nadal pozostało Ci trochę wody nie przejmuj się dodanie masła orzechowego mocno zagęści i sprawi, że całość nabierz fajnej, kremowej konsystencji.
+
+Jeśli z drugiej strony po gotowaniu ziarna wchłonęły całą wodę dodaj trochę przegotowanej wody z czajnika, żeby całość była nico lejąca.
+
+W każdym przypadku teksturę i gęstość możesz regulować wg własnych upodobań dolewając wody lub dodając masła orzechowego.
+
+Smacznego!
 
 
 
-\    Czas przygotowania: do 45 minut
 
 
+\* Amaranth G r a i n & Ve g e ta b l e Ty p e s By G. Kelly O’Brien and Dr. Martin L. Price Published 1983; revised by Larry Yarger 2008
 
-Składniki na 3 - 4 porcje:
+\* http://ladnydom.pl/Ogrody/1,113408,5838236,Szarlat\_\_Amaranthus\_\___zloto_Inkow.html
 
-
-
-1 kalafior
-
-2 – 3 łyżki oleju, z pestek winogron lub innego jak do smażenia
-
-1/4 łyżeczki płatków chili
-
-1/4 łyżeczki soli
-
-
-
-1/2 szklanki orzechów laskowych
-
-
-
-1/4 czerwonej cebuli
-
-15 pomidorków koktajlowych
-
-1/4 pęczka pietruszki
-
-2 łyżki kaparów
-
-
-
-2 łyżki soku z cytryny
-
-2 łyżki oliwy z oliwek
-
-1/2 łyżeczki syropu z agawy
-
-sól i czarny pieprz
-
-Przygotowanie:
-
-
-
-\    Piekarnik rozgrzać do 200 stopni. Kalafiora przy pomocy małego nożyka podzielić na różyczki, a pozostałą łodygę pokroić w grubą kostkę i wszystko wrzucić do dużej miski. Do miski dodać olej, sól oraz chili i wszystko bardzo dokładnie natrzeć dłońmi, masując kalafiora przez kilkanaście sekund.
-
-\    Tak przygotowanego przerzucić na dużą blachę wyłożoną papierem do pieczenia i piec przez 20 – 25 minut. Miski, w której był nacierany kalafior nie myć tylko odstawić na bok – przyda się na końcu.
-
-\    Bardzo mocno rozgrzać patelnię. Wsypać orzechy laskowe i prażyć je do momentu, aż będą mocno rumiane i intensywnie pachnące. Przesypać je wtedy na kuchenną ściereczkę i pocierać nią tak długo, aż z orzechów zejdzie skórka.
-
-\    Cebulę pokroić w cienkie plasterki, pomidorki pokroić na połówki, kapary oraz pietruszkę posiekać, a obrane ze skórki orzechy laskowe pokroić na połówki.
-
-\    Gdy minie czas i kalafior będzie upieczony, podzielić go na mniejsze kawałki i przełożyć do naszykowanej miski. Dodać do niego wszystkie pozostałe składniki i dokładnie wymieszać. Na koniec doprawić do smaku solą oraz pieprzem i podawać – wspaniale smakuje na zimno i na gorąco.
+\* www.usaemergencysupply.com

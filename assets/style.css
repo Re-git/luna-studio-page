@@ -60,7 +60,12 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #faebd7;
+    box-shadow: 0px 0px 3px -2px black;
+    transition: transform 0.3s, box-shadow 0.3s
+}
+.post-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 6px -3px black;
 }
 
 .post-card:first-child {
@@ -105,7 +110,9 @@ h2 {
 }
 
 .post-excerpt {
+    margin: 0.5em;
     margin-top: 1.8em;
+    margin-bottom: 1.8em;
     text-align: left;
     color: var(--secondary-text-color);
     line-height: 1.5;

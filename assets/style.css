@@ -41,6 +41,7 @@ h2 {
 .page-content {
     margin-right: auto;
     margin-left: auto;
+    max-width: 1100px;
 }
 .wrapper {
     margin-top: 5.2em;
